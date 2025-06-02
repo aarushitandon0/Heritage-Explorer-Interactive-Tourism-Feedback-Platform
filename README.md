@@ -45,15 +45,12 @@ Watch the app walkthrough video here:
 
 ## Tech Stack
 
--  **Frontend & Backend:** ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-                           ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
--  **Maps & Visualization:** ![Folium](https://img.shields.io/badge/Folium-4CAF50?style=for-the-badge&logo=leaflet&logoColor=white)
-                            + [streamlit-folium](https://github.com/randyzwitch/streamlit-folium)  
--  **Data Storage:** ![Snowflake](https://img.shields.io/badge/Snowflake-2298BD?style=for-the-badge&logo=snowflake&logoColor=white) (for user feedback)  
--  **Image Hosting:** ![Cloudinary](https://img.shields.io/badge/Cloudinary-DB2777?style=for-the-badge&logo=cloudinary&logoColor=white) (for user-uploaded photos)  
--  **Environment Variables:** ![python-dotenv](https://img.shields.io/badge/python--dotenv-4A4A4A?style=for-the-badge&logo=python&logoColor=white) for secure config management  
--  **Other:**![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) for data handling  
-
+- **Frontend & Backend:** [Streamlit](https://streamlit.io/) (Python)  
+- **Maps & Visualization:** [Folium](https://python-visualization.github.io/folium/) + [streamlit-folium](https://github.com/randyzwitch/streamlit-folium)  
+- **Data Storage:** [Snowflake](https://www.snowflake.com/) (for user feedback)  
+- **Image Hosting:** [Cloudinary](https://cloudinary.com/) (for user-uploaded photos)  
+- **Environment Variables:** [python-dotenv](https://pypi.org/project/python-dotenv/) for secure config management  
+- **Other:** [Pandas](https://pandas.pydata.org/) for data handling  
 ---
 
 ## Getting Started
@@ -64,3 +61,35 @@ Watch the app walkthrough video here:
 - Snowflake account & warehouse with `user_feedback` table set up
 - Cloudinary account for image uploads
 - `.env` file with your API keys and credentials
+
+---
+
+## Snowflake Table schema
+```bash
+CREATE TABLE user_feedback (
+    id INTEGER AUTOINCREMENT PRIMARY KEY,
+    city STRING,
+    name STRING,
+    review STRING,
+    image_urls STRING, -- JSON array stored as string
+    rating INTEGER,
+    category STRING,
+    created_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP()
+);
+
+```
+---
+
+## Notes
+- User images are uploaded to Cloudinary under folder heritage_feedback/{city_key}.
+- The app uses caching for performance optimization.
+- Map markers support click events to show city details and feedback.
+- Responsible tourism tips are curated from UNESCO and Indian Ministry of Tourism guidelines.
+- The admin dashboard provides basic analytics on feedback data.
+
+
+---
+
+
+## Hackathon Submission
+This project is submitted as an entry for the YourStory x Snowflake Hero Hackathon 2025. It aims to empower users to explore India’s cultural heritage through an interactive, community-driven platform promoting responsible tourism and cultural awareness.
