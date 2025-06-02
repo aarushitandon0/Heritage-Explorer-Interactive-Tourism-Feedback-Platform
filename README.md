@@ -4,8 +4,6 @@
 
 ---
 
-## 
-
 This app was built as a submission for the **YourStory x Snowflake Hero Hackathon 2025** to promote responsible tourism and celebrate India's living cultural heritage using data-driven interactive visualizations.
 
 ---
