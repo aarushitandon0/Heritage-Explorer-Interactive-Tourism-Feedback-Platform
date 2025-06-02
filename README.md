@@ -45,12 +45,14 @@ Watch the app walkthrough video here:
 
 ## Tech Stack
 
--  **Frontend & Backend:** [Streamlit](https://streamlit.io/) (Python)  
--  **Maps & Visualization:** [Folium](https://python-visualization.github.io/folium/) + [streamlit-folium](https://github.com/randyzwitch/streamlit-folium)  
--  **Data Storage:** [Snowflake](https://www.snowflake.com/) (for user feedback)  
--  **Image Hosting:** [Cloudinary](https://cloudinary.com/) (for user-uploaded photos)  
--  **Environment Variables:** [python-dotenv](https://pypi.org/project/python-dotenv/) for secure config management  
--  **Other:** [Pandas](https://pandas.pydata.org/) for data handling  
+-  **Frontend & Backend:** ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+                           ![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=white)
+-  **Maps & Visualization:** ![Folium](https://img.shields.io/badge/Folium-4CAF50?style=for-the-badge&logo=leaflet&logoColor=white)
+                            + [streamlit-folium](https://github.com/randyzwitch/streamlit-folium)  
+-  **Data Storage:** ![Snowflake](https://img.shields.io/badge/Snowflake-2298BD?style=for-the-badge&logo=snowflake&logoColor=white) (for user feedback)  
+-  **Image Hosting:** ![Cloudinary](https://img.shields.io/badge/Cloudinary-DB2777?style=for-the-badge&logo=cloudinary&logoColor=white) (for user-uploaded photos)  
+-  **Environment Variables:** ![python-dotenv](https://img.shields.io/badge/python--dotenv-4A4A4A?style=for-the-badge&logo=python&logoColor=white) for secure config management  
+-  **Other:**![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) for data handling  
 
 ---
 
