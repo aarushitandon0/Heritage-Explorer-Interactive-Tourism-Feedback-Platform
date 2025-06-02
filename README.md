@@ -43,6 +43,9 @@ Watch the app walkthrough video here:
 
 ---
 
+## Images
+![App Screenshot](./images/Screenshot%202025-06-01%20140246.png)
+
 ## Tech Stack
 
 - **Frontend & Backend:** [Streamlit](https://streamlit.io/) (Python)  
