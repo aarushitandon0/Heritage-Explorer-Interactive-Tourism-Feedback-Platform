@@ -30,3 +30,35 @@ Watch the app walkthrough video here:
 
 ---
 
+## Features
+
+- **Interactive Map:** View heritage cities clustered geographically with popup info.
+- **City Details:** Explore art forms, tourism tips, and image galleries.
+- **User Feedback:** Submit reviews with optional photos uploaded to Cloudinary.
+- **Cultural Trivia:** Fun facts mapped geographically and listed.
+- **Cultural Calendar:** Monthly festivals and events by city.
+- **Responsible Tourism:** Practical tips to explore respectfully.
+- **Admin Dashboard:** Analytics of feedback with review counts and average ratings.
+- **Quiz:** Engage users with heritage-related trivia questions.
+
+---
+
+## Tech Stack
+
+-  **Frontend & Backend:** [Streamlit](https://streamlit.io/) (Python)  
+-  **Maps & Visualization:** [Folium](https://python-visualization.github.io/folium/) + [streamlit-folium](https://github.com/randyzwitch/streamlit-folium)  
+-  **Data Storage:** [Snowflake](https://www.snowflake.com/) (for user feedback)  
+-  **Image Hosting:** [Cloudinary](https://cloudinary.com/) (for user-uploaded photos)  
+-  **Environment Variables:** [python-dotenv](https://pypi.org/project/python-dotenv/) for secure config management  
+-  **Other:** [Pandas](https://pandas.pydata.org/) for data handling  
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- Snowflake account & warehouse with `user_feedback` table set up
+- Cloudinary account for image uploads
+- `.env` file with your API keys and credentials
