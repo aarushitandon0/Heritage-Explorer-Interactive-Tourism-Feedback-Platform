@@ -1,6 +1,6 @@
 # India's Living Heritage — Interactive Cultural Map & Feedback Platform
 
-🇮🇳 **Celebrate India's rich cultural diversity!**
+**Celebrate India's rich cultural diversity!**
 
 ---
 
@@ -19,3 +19,9 @@ This Streamlit web app showcases 25 authentic heritage cities across India, high
 
 ---
 
+## Demo
+
+Watch the app walkthrough video here:  
+[Google Drive Video Link][(https://drive.google.com/file/d/1HEQM-mkakb0a7DgNIWjdoaCz_-uQAurC/view?usp=sharing)]
+
+---
